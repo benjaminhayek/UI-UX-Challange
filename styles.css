@@ -1,30 +1,167 @@
 * {
   margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 16em 1fr;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 100px 10fr 9fr
 }
 
 aside {
   background-color: #67B297;
-  width: 15em;
   color: white;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+.logo {
+  height: 65px;
+  justify-content: 
+}
+
+.login {
+  display: flex;
+  align-items: center; 
+  margin-right: 20px;
+}
+
+.blank {
+  width: 125px;
+}
+
+.logout {
+  margin-left: 10px;
+}
+
+.stats {
+  background-color: #422560;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-stat {
+  display: flex;
+  flex-direction: column;
+}
+
 .aside-header {
-  padding-top: 20px;
+  padding-top: 40px;
   margin-left: 25px;
   padding-bottom: 5px;
 }
 
+.ran-span {
+  opacity: .7;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.circle {
+  height: 200px;
+}
+
+.stat-right-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.random {
+  display: flex;
+  align-items: center;
+}
+
+.goals {
+  /*display: inline-block;*/
+  margin: 0 auto;
+}
+
 .header-hr {
-  width: 80%;
+  width: 69%;
   background-color: white;
   height: 1px;
   margin-left: 25px;
+  margin-bottom: 10px;
 }
 
 .day-break {
-  width: 30%
+  width: 20%;
+  margin-left: 80px;
 }
 
 .day {
-  margin-left: 25px
+  margin-left: 25px;
+  padding-top: 10px;
+}
+
+.weekday {
+  margin-left: 80px;
+}
+
+.am {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.pm {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.face {
+  height: 50px;
+}
+
+.hello {
+  margin-left: 30px;
+}
+
+.plus {
+  height: 17px;
+  margin-left: 10px;
+  position: relative;
+  top: 2.5px;
+}
+
+.pro {
+  text-align: center;
+}
+
+.calendar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cal {
+  width: 70%
+}
+
+.goals {
+/*  text-align: center;*/
+}
+
+.fa-check {
+  color: #FFC333;
 }
