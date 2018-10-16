@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+
+aside {
+  background-color: #67B297;
+  width: 15em;
+  color: white;
+}
+
+.aside-header {
+  padding-top: 20px;
+  margin-left: 25px;
+  padding-bottom: 5px;
+}
+
+.header-hr {
+  width: 80%;
+  background-color: white;
+  height: 1px;
+  margin-left: 25px;
+}
+
+.day-break {
+  width: 30%
+}
+
+.day {
+  margin-left: 25px
+}
