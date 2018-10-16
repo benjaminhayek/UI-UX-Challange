@@ -26,5 +26,18 @@ aside {
 }
 
 .day {
-  margin-left: 25px
+  margin-left: 25px;
+  padding-top: 10px;
+}
+
+.weekday {
+  margin-left: 75px;
+}
+
+.am {
+  display: inline-block;
+}
+
+.fa-check {
+  color: #FFC333;
 }
